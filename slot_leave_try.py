@@ -88,10 +88,10 @@ def get_teachers(cursor, panel_teaching, teacher_id, day, date, slot):
 
 
 def main():
-    host = 'localhost'
-    user = 'root'
-    password = 'root'
-    database = 'university'
+    host = ''
+    user = ''
+    password = ''
+    database = ''
 
     connection = pymysql.connect(host=host, user=user, password=password, database=database)
 
